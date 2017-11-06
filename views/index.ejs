@@ -15,8 +15,229 @@
   <script src="/plugins/angular/angular.js"></script>
 </head>
 <body>
-<div>
-  <h1>hello word</h1>
+<!--导航部分-->
+<div class="j-header">
+  <div class="j-top">
+    <a href="/" class="logo">
+      <i class="icon-logo">
+        <img src="http://wimg.spriteapp.cn/huodong/logo_new.png" alt="百思不得姐" title="百思不得姐官网">
+      </i>
+    </a>
+    <div class="link">
+      <!-- gaga type: 1  None -->
+      <a class="cur" href="/">全部</a>
+      <a href="/">图片</a>
+      <a href="/">段子</a>
+      <a href="/">声音</a>
+      <a href="/">排行</a>
+    </div>
+    <div class="login" id="jLoginBar">
+      <a href="/login" id="jLogin" class="register">登录</a><em>|</em>
+      <a href="/register" class="enroll" id="Register">注册</a>
+    </div>
+    <div class="login user-login" id="jUserLoginBar" style="display: none;">
+      <a href="/user/topic/" id="jUserLoginName" style="max-width: 84px; overflow: hidden; height: 22px;"></a>|&nbsp;
+      <i id="userNewsIcon" class="icon-msg"></i>
+      <a href="javascript:void(0);" id="jLoginExit">退出</a>
+      <a href="/user/publish/" class="j-post" onclick="jie.gaSend('pc官网-点击发帖button','点击右上角发帖button','')">发帖</a>
+    </div>
+
+  </div>
+  <div class="clear"></div>
 </div>
+<!--内容-->
+<div class="aw-container-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="aw-content-wrap clearfix">
+        <div class="col-sm-12 col-md-9 aw-main-content">
+          <!--文章的检索-->
+          <ul class="nav nav-tabs aw-nav-tabs active hidden-xs">
+            <li class=""><a href="/?category=job">精华</a></li>
+            <li class=""><a href="/?category=ask">穿越</a></li>
+            <li class=""><a href="/?category=share">分享</a></li>
+            <h2 class="hidden-xs"><i class="fa fa-bars"></i> 发现</h2>
+          </ul>
+          <!--文章的检索-->
+          <!--文章列表-->
+          <div class="aw-mod aw-explore-list">
+            <div class="mod-body">
+              <div class="aw-common-list">
+                <div class="aw-item">
+                  <a class="aw-user-name hidden-xs" href="/user/a123456">
+                    <img src="/images/default-avatar.jpg">
+                  </a>
+                  <div class="aw-question-content">
+                    <h4>
+                      <a href="/question/B11ll08pZ">fdgfdgfdgfd</a>
+                      <span class="aw-user-name" style="background-color:#99cfff;color:white">
+                                                &nbsp;分享&nbsp;
+                                            </span>
+                    </h4>
+                    <div class="pull-right hidden-xs contribute">
+                      <span class="pull-right text-color-999">贡献</span>
+                      <a class="aw-user-name" href="/user/a123456">
+                        <img src="/images/default-avatar.jpg">
+                      </a>
+                    </div>
+                    <p>
+                      <a href="/user/a123456" class="aw-user-name">
+                        a123456
+                      </a>
+                      <span class="text-color-999">
+                                                发起了问题  • 2 个回复 • 6 次浏览 • 14 天前
+                                            </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mod-footer">
+              <div class="page-control">
+                <ul class="pagination pull-right">
+                  <li class="active">
+                    <a class="loadpage" href="/?page=1&amp;category=all">
+                      1
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--侧边栏-->
+        <div class="col-sm-12 col-md-3 aw-side-bar hidden-xs hidden-sm">
+          <!--个人信息-->
+          <div class="aw-mod">
+            <div class="mod-head">
+              <h3>个人信息</h3>
+            </div>
+            <div class="mod-body">
+              <dl>
+                <dt class="pull-left aw-border-radius-5">
+                  <a href="/user/a123456"><img src="/images/default-avatar.jpg"></a>
+                </dt>
+                <dd class="pull-left">
+                  <a class="aw-user-name" href="/user/a123456">
+                    a123456
+                  </a>
+                  <a href="/user/a123456" class="pull-right">更多</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="mod-footer">
+              这家伙很懒,什么都没有留下..
+            </div>
+          </div>
+
+          <div class="aw-mod aw-text-align-justify">
+            <div class="mod-head">
+              <a href="/users" class="pull-right">更多</a>
+              <h3>热门用户</h3>
+            </div>
+            <div class="mod-body">
+
+
+              <dl>
+                <dt class="pull-left aw-border-radius-5">
+                  <a href="/user/a123456"><img src="/images/default-avatar.jpg"></a>
+                </dt>
+                <dd class="pull-left">
+                  <a href="/user/a123456" class="aw-user-name">a123456</a>
+                  <p class="signature"></p>
+                  <p>
+                    积 分 : 40 ,
+                    发 表 : 1
+                  </p>
+                </dd>
+              </dl>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="j-footer">
+  <!--联系-->
+  <div class="j-contect">
+    <div class="box" style="width:140px;">
+      <h3>关于小冬子</h3>
+      <div class="main">
+        <ul>
+          <li>
+            <a rel="nofollow" href="http://www.spriteapp.com/about.html" target="_blank">关于小冬子的社区</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://www.spriteapp.com/Cooperation.html" target="_blank">媒体合作</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://www.budejie.com" target="_blank">小冬子</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="box" style="width:170px;">
+      <h3>关注小冬子</h3>
+
+      <div class="main">
+        <ul>
+          <li>
+            <a rel="nofollow" href="https://weibo.com/5027497428/profile?topnav=1&wvr=6" target="_blank">小冬子新浪微博</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&uin=985569132&site=qq&menu=yes" class="j-qq">小冬子的QQ</a>
+
+          </li>
+          <li>
+            <a rel="nofollow" href="http://tieba.baidu.com/f?kw=%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90&amp;ie=utf-8&amp;fr=wwwt" target="_blank">小冬子贴吧</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://user.qzone.qq.com/985569132" target="_blank">小冬子のQQ空间</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="/" class="j-weixin">小冬子的微信公众号</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="box last">
+      <h3>友情链接</h3>
+      <div class="main">
+        <ul>
+          <li>
+            <a href="http://www.99danji.com/zt/" target="_blank">单机游戏大全</a>
+          </li>
+          <li>
+            <a href="http://www.9553.com/article/" target="_blank">游戏攻略大全</a>
+          </li>
+          <li>
+            <a href="http://tupian.baike.com/" target="_blank">图片百科</a>
+          </li>
+          <li>
+            <a href="http://www.ratoo.net/" target="_blank">热图网</a>
+          </li>
+          <li>
+            <a href="http://www.7791.com.cn/" target="_blank">叫兽网</a>
+          </li>
+          <li>
+        </ul>
+      </div>
+    </div>
+    <div class="erwiema">
+      <i class="icon-footer-qr">
+        <img src="../images/weixin.png" alt="小冬子的微信" title="扫一扫加我为好友">
+        <span style="display:block;font-size: 13px; margin-top:4px;">扫一扫加我为好友</span>
+      </i>
+    </div>
+  </div>
+  <!--公司-->
+  <div class="j-footer-c">
+    版权纯属小冬子所有<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802021522">京公网安备11010802021522号</a>|京ICP备11038795号|京网文[2015]2077-378号
+  </div>
+</footer>
 </body>
 </html>

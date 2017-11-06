@@ -1,0 +1,166 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-size: 100%;
+    line-height: 1.7;
+}
+#wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+.aw-login-box {
+    width: 714px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+}
+.aw-login-box .mod-body {
+    padding:10px 30px;
+}
+.aw-login-box .mod-body .content {
+    width: 400px;
+}
+.aw-login-box .logo {
+    width:260px!important;
+    height:200px !important;
+    background: url(../images/logo_club.png) no-repeat !important;
+    background-size: contain!important;
+    margin-left: 50px;
+}
+.aw-login-box .mod-body .content h2 {
+    margin:-20px 0 20px 60px;
+    font-size: 18px;
+    color: #ddd;
+}
+ .j-u-d-c-phone{
+    width: 380px;
+     font-size: 14px;
+     border: 1px solid #d9d9d9;
+     border-radius: 5px;
+     line-height: 48px;
+     margin: 10px;
+}
+.j-u-d-c-phone input{
+    border:none;
+    color: #000;
+    padding-left: 12px;
+    outline: none;
+}
+.j-u-d-c-phone span {
+    font-size: 16px;
+    color:#797979;
+    padding-left: 12px;
+}
+.j-u-d-agreement{
+    margin-top: 24px;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+.remind-me{
+    float: left;
+    cursor: pointer
+}
+.icon-checkbox {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.j-u-d-agreement .forget-password {
+    float: right;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 2px;
+}
+.j-u-d-submit{
+    margin-left: 30px;
+    margin-bottom: 86px;
+    margin-top: 36px;
+    display: block;
+    color: #fff;
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #e50541;
+}
+.j-login .j-u-d-c-r {
+    padding-top: 0;
+}
+ .j-u-d-c-r {
+    float:right;
+    padding: 28px 0 0 36px;
+}
+.j-login .j-u-d-c-r .joint-login {
+    padding-top: 4px;
+    padding-bottom: 14px;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+}
+.j-u-d-icon-joint-login-des {
+    width: 212px;
+    height: 50px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 50px;
+    display: inline-block;
+    overflow:visible;
+}
+ .j-u-d-c-r .joint-login li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+ .joint-login-xinlang{
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     overflow: visible;
+     background: url(../images/j_pc_spriteruser1.0.9.png) no-repeat;
+ }
+.j-u-d-c-r .joint-login li .joint-login-tit {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+.joint-login-qq{
+    background: url(../images/j_pc_spriteruser1.0.9.png) -60px 0 no-repeat;
+    width: 60px;
+    height: 60px;
+}
+.j-u-d-icon-regist-des {
+    width: 210px;
+    height: 30px;
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 50px;
+    border-bottom: 0;
+}
+ .j-u-d-c-r .j-u-d-c-r-login .j-u-d-c-icon-login {
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #e50541;
+    color: #e50541;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 26px 0;
+}
+.icon-checkbox{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(../images/j_pc_spriteruser1.0.9.png) -198px -26px no-repeat;
+}
