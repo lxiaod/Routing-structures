@@ -5,6 +5,8 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+//引入partials第三方插件
+const  partials =require('express-partials');
 //引入路由规则
 const index = require('./routes');
 const app = express();
@@ -19,6 +21,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+//使用这个模板的第三方插件
+app.use(partials());
 app.use('/', index);
 // catch 404 and forward to error handler
 app.use((req, res, next) =>{
